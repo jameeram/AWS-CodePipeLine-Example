@@ -49,7 +49,7 @@ public class EmployeeApiController implements EmployeeApi {
         List<Employee> employeeList = new ArrayList<Employee>();
         Employee emp = new Employee();
 	        emp.setId(UUID.randomUUID());
-	        emp.setDepartment("IT");
+	        emp.setDepartment("Software");
 	        emp.setName("Jayaram Jami");
 	        emp.setSalary(100000);
         employeeList.add(emp);
